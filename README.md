@@ -5,7 +5,7 @@ This project demonstrates how to use **Docker Compose** to deploy a **Flask web 
 
 ### **Project Structure**
 ```
-project-root/
+Assignment/
 │── docker-compose.yml
 │── web/
 │   │── Dockerfile
@@ -16,6 +16,9 @@ project-root/
 ```
 
 ---
+![Screenshot (72)](https://github.com/user-attachments/assets/d56663a8-c2cc-484f-8051-d4c2e2bc86f3)
+
+
 
 ## **1. Docker Compose Setup (`docker-compose.yml`)**
 Defines two services:  
@@ -53,13 +56,21 @@ services:
 
 volumes:
   db_data:
-```
 
----
+![Screenshot (73)](https://github.com/user-attachments/assets/1be643a1-b943-4401-8692-22e582264427)
+
+
 
 ## **2. Web Application Setup**
 
+![Screenshot (73)](https://github.com/user-attachments/assets/9fc5f8c2-9702-426f-b5a2-8808e7cfbfa2)
+
+
 ### **Dockerfile (`web/Dockerfile`)**
+
+![Screenshot (73)](https://github.com/user-attachments/assets/0adbc9a6-9acf-45dd-918e-16c719f4e204)
+
+
 This file defines how to build the Flask application.
 
 ```dockerfile
@@ -85,6 +96,9 @@ CMD ["python", "app.py"]
 ---
 
 ### **Flask Web App (`web/app.py`)**
+![Screenshot (75)](https://github.com/user-attachments/assets/64675ab0-cec7-4daf-85e3-e0a650bf76cd)
+
+
 A simple **Flask** application that connects to MySQL.
 
 ```python
@@ -128,6 +142,10 @@ if __name__ == "__main__":
 ---
 
 ### **Database Initialization (`db/init.sql`)**
+
+![Screenshot (74)](https://github.com/user-attachments/assets/54b6a561-7532-44e9-bfe4-d8ef3f7fab46)
+
+
 This script creates a **users** table and inserts sample data.
 
 ```sql
@@ -152,7 +170,13 @@ pymysql
 ---
 
 ## **3. Deployment Steps**
+
+![Screenshot (75)](https://github.com/user-attachments/assets/34f954a8-b904-4bef-bc22-d3e0567fdde1)
+
 ### **Start the Containers**
+
+![Screenshot (78)](https://github.com/user-attachments/assets/15d92071-d56e-40c5-9d6a-1387a09c0647)
+
 Run the following command to **build and start** the application:
 
 ```sh
@@ -167,6 +191,9 @@ docker-compose up -d
 ---
 
 ## **4. Log Checking**
+![Screenshot (80)](https://github.com/user-attachments/assets/c33c84e9-895d-4ff5-aa9c-86105f68ce6c)
+
+
 Check logs of the web and database containers:
 
 ```sh
@@ -224,6 +251,10 @@ Expected output:
 ---
 
 ## **7. Cleanup**
+
+![Screenshot (81)](https://github.com/user-attachments/assets/e0b228b6-c64c-477a-a736-864cbb2436e4)
+
+
 When done, shut down the containers:
 
 ```sh
