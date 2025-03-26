@@ -269,16 +269,3 @@ docker-compose down --volumes
 
 ---
 
-## **Next Steps**
-✅ Add **.env file** for credentials  
-✅ Use **Nginx** as a reverse proxy  
-✅ Deploy with **Docker Swarm or Kubernetes**  
-
----
-
-### **Author**
-📌 **Project by [DAMILARE SAMSON]**  
-📌 **GitHub: [https://github.com/Daresamson/-Docker-Compose/edit/main/README.md]**  
-
----
-
