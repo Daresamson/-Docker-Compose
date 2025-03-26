@@ -1,6 +1,7 @@
 ## **Docker Compose for Web Application and Database Deployment**
-This project demonstrates how to use **Docker Compose** to deploy a **Flask web application** with a **MySQL database**. It includes database setup, networking, logging, and cleanup steps.  
+This project demonstrates how to use **Docker Compose** to deploy a **Flask web application** (with a **MySQL database**. It includes database setup, networking, logging, and cleanup steps.  
 
+# A flask is a lightweight WSGI web application framework.
 ---
 
 ### **Project Structure**
