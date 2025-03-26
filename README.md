@@ -16,7 +16,9 @@ Assignment/
 ```
 
 ---
-![Screenshot (72)](https://github.com/user-attachments/assets/d56663a8-c2cc-484f-8051-d4c2e2bc86f3)
+
+![Screenshot (72)](https://github.com/user-attachments/assets/74273993-1e52-4a41-b2ce-68e2adf7ad83)
+
 
 
 
@@ -57,18 +59,11 @@ services:
 volumes:
   db_data:
 
-![Screenshot (73)](https://github.com/user-attachments/assets/1be643a1-b943-4401-8692-22e582264427)
-
 
 
 ## **2. Web Application Setup**
 
-![Screenshot (73)](https://github.com/user-attachments/assets/9fc5f8c2-9702-426f-b5a2-8808e7cfbfa2)
-
-
 ### **Dockerfile (`web/Dockerfile`)**
-
-![Screenshot (73)](https://github.com/user-attachments/assets/0adbc9a6-9acf-45dd-918e-16c719f4e204)
 
 
 This file defines how to build the Flask application.
@@ -94,6 +89,7 @@ CMD ["python", "app.py"]
 ```
 
 ---
+![Screenshot (73)](https://github.com/user-attachments/assets/f8636175-2cf2-4cef-9838-6a3b7c894d28)
 
 ### **Flask Web App (`web/app.py`)**
 ![Screenshot (75)](https://github.com/user-attachments/assets/64675ab0-cec7-4daf-85e3-e0a650bf76cd)
